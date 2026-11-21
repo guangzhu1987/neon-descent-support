@@ -1,0 +1,13 @@
+:root { color-scheme: dark; --bg:#070a12; --panel:#0f1422; --line:#24324a; --text:#e8f4ff; --muted:#8ba1bb; --cyan:#27e0e8; --pink:#ff3f81; --acid:#c8ff3d; }
+* { box-sizing: border-box; }
+body { margin:0; background:radial-gradient(circle at 50% 0%,#16203a 0,#070a12 55%); color:var(--text); font:16px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB",sans-serif; }
+main { max-width:780px; margin:0 auto; padding:56px 22px 80px; }
+.kicker { color:var(--cyan); font-size:12px; letter-spacing:3px; font-weight:700; }
+h1 { font-size:36px; line-height:1.2; margin:8px 0 6px; }
+.sub { color:var(--muted); margin-bottom:32px; }
+.card { background:rgba(15,20,34,.92); border:1px solid var(--line); padding:24px; margin:18px 0; border-radius:10px; box-shadow:0 0 40px rgba(39,224,232,.05); }
+h2 { font-size:19px; margin:0 0 10px; color:var(--acid); }
+a { color:var(--cyan); }
+ul { padding-left:20px; }
+.footer { color:var(--muted); font-size:13px; margin-top:34px; border-top:1px solid var(--line); padding-top:18px; }
+.badge { display:inline-block; border:1px solid var(--pink); color:var(--pink); border-radius:4px; padding:2px 8px; font-size:12px; letter-spacing:1px; }
